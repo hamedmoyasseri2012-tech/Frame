@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 .frame {
   background-color: #d48f56;
   position: absolute;
@@ -23,11 +24,6 @@
   height: 320px;
   align-items: center;
   background-color: white;
-}
-.profile {
-  position: relative;
-  width: 100px;
-  height: 100px;
 }
 .circle1 {
   position: absolute;
@@ -53,6 +49,14 @@
   border-radius: 100%;
   border-color: black transparent black black;
 }
+.profile {
+  position: relative;
+  width: 100px;
+  height: 100px;
+}
+.profile {
+  transition: all 2s;
+}
 
 .profile:hover .circle1 {
   transform: rotate(360deg);
@@ -70,6 +74,7 @@
 .img1 {
   border: 1px solid #786450;
   border-radius: 100%;
+  align-items: center;
   width: 82px;
   height: 82px;
 }
